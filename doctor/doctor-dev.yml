@@ -1,6 +1,7 @@
+application:
+  environment: DEVELOP
 spring:
   application:
-    environment: DEVELOP
     name: doctor
     version: 1.0.0-SNAPSHOT
   data:
