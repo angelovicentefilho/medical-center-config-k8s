@@ -2,8 +2,6 @@ spring:
   application:
     name: doctor
     version: 1.0.0-SNAPSHOT
-  profiles:
-    active: ${PROFILE:dev}
   data:
     redis:
       port: ${REDIS_PORT:6379}
