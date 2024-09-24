@@ -1,5 +1,3 @@
-application:
-  environment: DEVELOP
 spring:
   application:
     name: doctor
