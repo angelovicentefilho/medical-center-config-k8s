@@ -2,7 +2,7 @@ application:
   environment: DEVELOP
 spring:
   application:
-    name: doctor
+    name: patient
     version: 1.0.0-SNAPSHOT
   data:
     redis:
@@ -12,7 +12,7 @@ spring:
       password: ${REDIS_PASS:root}
     mongodb:
       host: ${MONGODB_HOST:localhost}
-      database: doctor_db
+      database: patient_db
       port: ${MONGODB_PORT:27017}
 management:
   endpoints:
@@ -33,10 +33,10 @@ springdoc:
   api-docs:
     groups:
       enabled: 'true'
-    path: /doc/doctor/v3/api-documents
+    path: /doc/patient/v3/api-documents
   swagger-ui:
     enabled: 'true'
-    path: /doc/doctor/v1/api.html
+    path: /doc/patient/v1/api.html
 api:
   version: v1
   description: Description here
